@@ -1,0 +1,135 @@
+.screen1{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width:100vw;
+    height:100vh;
+    background-image: url("src\Group 1.svg");
+}
+
+.op_text{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 77px;
+
+color: #000000;
+
+
+}
+.high_score{
+    display: flex;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+
+    color: #000000;
+
+    position: absolute;
+    width: 314px;
+    height: 60px;
+    left: 71px;
+    top: 57px;
+
+    background: #FFBABA;
+    border-radius: 30px;
+
+    justify-content:center;
+    align-items:center;
+
+}
+
+.play{
+box-sizing: border-box;
+
+
+width: 444px;
+height: 124px;
+left: 488px;
+top: 532px;
+
+background: #FFD043;
+border: 10px solid #EEB741;
+border-radius: 30px;
+
+}
+
+.setting1{
+    position: absolute;
+    width: 98px;
+    height: 98px;
+    left: 1292px;
+    top: 650px;
+
+}
+
+.screen2{
+    display:none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width:100vw;
+    height:100vh;
+}
+
+.answers{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80vw;
+    justify-content:center;
+    align-items: center;
+}
+
+.option1, .option2, .option3, .option4{
+    box-sizing: border-box;
+    width: 464px;
+    height: 161px;
+    left: 186px;
+    top: 535px;
+    margin-top:30px;
+    margin-left: 50px;
+    margin-right: 50px;
+
+    background: #FFD67E;
+    border: 8px solid #F2B25F;
+    border-radius: 10px;
+
+}
+
+.final{
+    display:none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width:100vw;
+    height:100vh;
+}
+
+.questions{
+    height: 250px;
+}
+
+.final_option{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home, .settings{
+    box-sizing: border-box;
+    width: 150px;
+    height: 150px;
+    left: 186px;
+    top: 535px;
+    margin-top:30px;
+    margin-left: 50px;
+    margin-right: 50px;
+
+    background: #FFD67E;
+    border: 8px solid #F2B25F;
+    border-radius: 10px;
+}
