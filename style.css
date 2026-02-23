@@ -43,19 +43,24 @@ color: #000000;
 
 }
 
-.play{
-box-sizing: border-box;
-
-
-width: 444px;
-height: 124px;
-left: 488px;
-top: 532px;
-
-background: #FFD043;
-border: 10px solid #EEB741;
-border-radius: 30px;
-
+.play {
+  width: 260px;
+  height: 80px;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px 25px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 1000;
+  font-size:30px;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+   box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+   7px 7px 20px 0px rgba(0,0,0,.1),
+   4px 4px 5px 0px rgba(0,0,0,.1);
+  outline: none;
 }
 
 .setting1{
@@ -132,4 +137,35 @@ border-radius: 30px;
     background: #FFD67E;
     border: 8px solid #F2B25F;
     border-radius: 10px;
+}
+
+.play {
+  background: #FFD67E;
+  border: none;
+  z-index: 1;
+}
+.play:after {
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 100%;
+  top: 0;
+  right: 0;
+  z-index: -1;
+  background-color: orange;
+  border-radius: 5px;
+   box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+   7px 7px 20px 0px rgba(0,0,0,.1),
+   4px 4px 5px 0px rgba(0,0,0,.1);
+  transition: all 0.3s ease;
+}
+.play:hover {
+  color: #fff;
+}
+.play:hover:after {
+  left: 0;
+  width: 100%;
+}
+.play:active {
+  top: 2px;
 }
